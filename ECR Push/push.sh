@@ -3,7 +3,7 @@ set -x
 
 IMAGE_TAG=$1
 BUILD_PATH=$2
-ACC_ID=581644921650
+ACC_ID=000000000000
 
 
 sudo docker build $BUILD_PATH --tag $IMAGE_TAG
